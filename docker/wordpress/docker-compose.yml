@@ -1,0 +1,16 @@
+wordpress:
+  image: wordpress
+  links:
+    - mysql_server:mysql
+  ports:
+    - 8080:80
+  environment:
+    - WORDPRESS_DB_PASSWORD=4linux
+
+mysql_server:
+  image: mysql:5.7.22
+  environment:
+    - MYSQL_ROOT_PASSWORD=4linux
+    - MYSQL_DATABASE=wordpress
+
+
