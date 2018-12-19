@@ -1,0 +1,48 @@
+---
+- name: Playbook do Desafio
+  hosts: all
+  tasks:
+    - name: Removendo NGINX UBUNTU
+      apt: name=nginx state=absent update_cache=yes
+      when: ansible_distribution == "Ubuntu"
+
+    - name: Removendo NGINX CENTOS
+      yum: name=nginx state=absent update_cache=yes
+      when: ansible_distribution == "CentOS"
+
+    - name: Instalando Pacotes - Ubuntu
+      apt:
+        name: ['apache2','libapache2-mod-php7.0','php7.0']
+        state: present
+        update_cache: yes
+      #notify: restart
+      when: ansible_distribution == "Ubuntu"
+
+    - name: Habilitar Modulo
+      command: a2enmod php7.0
+      when: ansible_distribution == "Ubuntu"
+
+
+    - name: Instalando Pacotes - CentOS
+      yum:
+        name: ['httpd','php']
+        state: present
+      when: ansible_distribution == "CentOS"
+
+#    - name: Criando Index
+#      lineinfile:
+#        path: /var/www/html/index.php
+#        create: yes
+#        line: "<?php echo “Desafio de Gotham” ?>"
+#        state: present
+#
+# OUtro metodo para criar o index, pois o anterior adicionaria uma linha ao fim do arquivo toda vez
+
+    - name: Copiando Arquivo index.php
+      copy:
+        src: /home/vagrant/index.php
+        dest: /var/www/html/index.php
+ 
+
+
+  

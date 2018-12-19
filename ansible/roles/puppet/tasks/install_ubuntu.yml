@@ -1,0 +1,11 @@
+- name: Instalando Puppet - Ubuntu
+  apt:
+    deb: /tmp/puppet6-release-xenial.deb
+    state: present
+
+- name: Instalando Puppet-agent - Ubuntu
+  apt:
+    name: puppet-agent
+    state: present
+    update_cache: yes
+
