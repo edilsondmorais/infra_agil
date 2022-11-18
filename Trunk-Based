@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T12:50:09.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cjYAJ4pyBs3nzdrfhnGk" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T12:56:28.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qCfoIGnCrQI8s3_ey5zm" version="20.5.3" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="complex gitflow">
     <mxGraphModel dx="2221" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -84,9 +84,6 @@
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-20" value="JIRA-3031" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=1;fontFamily=Courier New;" parent="1" vertex="1">
           <mxGeometry x="130" y="570" width="90.56" height="19" as="geometry" />
-        </mxCell>
-        <mxCell id="uWUnNED6HEl2aK5fdaIb-89" value="&lt;a href=&quot;https://trunkbaseddevelopment.com/short-lived-feature-branches/&quot;&gt;feature branch&lt;/a&gt;&amp;nbsp;short-lived" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" parent="1" vertex="1">
-          <mxGeometry x="270.56" y="585" width="178.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uWUnNED6HEl2aK5fdaIb-90" value="The main branch&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="130" y="413" width="146.75" height="20" as="geometry" />
@@ -364,8 +361,8 @@
         <mxCell id="3uvU3C7fOVfDVsJIpFHF-159" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Courier New&amp;quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CI / CD&lt;br&gt;Tests&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="834.94" y="209.17" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3uvU3C7fOVfDVsJIpFHF-162" value="&lt;a href=&quot;https://trunkbaseddevelopment.com/short-lived-feature-branches/&quot;&gt;feature branch&lt;/a&gt;&amp;nbsp;short-lived" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="430.56" y="743.5" width="178.25" height="20" as="geometry" />
+        <mxCell id="3uvU3C7fOVfDVsJIpFHF-162" value="&lt;a href=&quot;https://trunkbaseddevelopment.com/short-lived-feature-branches/&quot;&gt;feature branch&lt;/a&gt;&amp;nbsp;&lt;br&gt;short-lived" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="254.31" y="752" width="105.69" height="38" as="geometry" />
         </mxCell>
         <mxCell id="3uvU3C7fOVfDVsJIpFHF-164" value="" style="endArrow=classic;html=1;strokeWidth=1;fontFamily=Courier New;fontColor=#009900;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -441,6 +438,9 @@
         </mxCell>
         <mxCell id="3uvU3C7fOVfDVsJIpFHF-180" value="ADD HIPER LINK para diagrama do jenkins" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="607.31" y="201.50000000000003" width="178.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3uvU3C7fOVfDVsJIpFHF-181" value="&lt;a href=&quot;https://trunkbaseddevelopment.com/short-lived-feature-branches/&quot;&gt;feature branch&lt;/a&gt;&amp;nbsp;&lt;br&gt;short-lived" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=14;fontStyle=0;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="122.44" y="589" width="105.69" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
